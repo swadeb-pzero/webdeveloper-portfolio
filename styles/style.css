@@ -1,0 +1,53 @@
+* {
+  font-family: "Open Sans", sans-serif;
+}
+.text-orange {
+  color: orangered;
+}
+.btn-primary {
+  width: 150px;
+  height: 40px;
+  border: none;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 5px;
+  background: #fd6e0a;
+  color: rgb(255, 255, 255);
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 150px;
+}
+.title {
+  font-size: 45px;
+  font-weight: bold;
+}
+.link-container > ul {
+  display: flex;
+  align-items: center;
+}
+
+.link-container li {
+  list-style: none;
+  margin-right: 50px;
+  color: var(--dark-02, #474747);
+}
+
+.link-container a {
+  text-decoration: none;
+}
+/* header-related style */
+.header{
+    background-color: #FFF8F3;;
+    
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.banner .profile-picture{
+    width: 500px;
+}
